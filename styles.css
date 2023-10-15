@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    margin-top: 2em;
+    z-index: 12;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.img {
+    max-width: 100%;
+    width: 100%;
+}
+.hamburger {
+    width: 2.2rem;
+    height: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0.85em;
+    z-index: 2;
+}
+
+
+.bar {
+    width: 100%;
+    height: 0.2rem;
+    background-color: #000;
+    border-radius: 10px;
+    
+}
+
+.menu-items {
+    list-style: none;
+    height: 100vh;
+    width: 50%;
+    /* margin-left: 10em; */
+    /* background-color: hsl(36, 100%, 99%); */
+    background-color: pink;
+    display: absolute;
+    padding: 3.5em 15em 0em 0.5em;
+    margin-right: -2em;
+    z-index: 1;
+    display: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    margin-top: 2em;
+}
+
+li {
+    margin-top: 1em;
+}
+
+/* class of vanish should set display to none */
+
+/* .vanish {
+    display: none;
+} */
+
+
