@@ -9,6 +9,7 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: hsl(36, 100%, 99%);
+    position: relative;
 }
 
 .container {
@@ -19,7 +20,6 @@ body {
 .header {
     position: relative;
     margin-top: 2em;
-    z-index: 12;
 }
 
 .navbar {
@@ -28,7 +28,7 @@ body {
     /* align-items: center; */
 }
 
-.img {
+.logo {
     max-width: 100%;
     width: 100%;
 }
@@ -58,31 +58,36 @@ body {
     list-style: none;
     height: 100vh;
     width: 50%;
-    /* margin-left: 10em; */
+    position: absolute;
+    top: 0;
+    right: 0;
     /* background-color: hsl(36, 100%, 99%); */
     background-color: pink;
     display: absolute;
-    padding: 3.5em 15em 0em 0.5em;
-    margin-right: -2em;
+    padding: 7em 10em 0em 1.2em;
+    margin-right: 0em;
     z-index: 1;
     display: none;
 }
 
 .menu-link {
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.2em;
     color: #000;
     margin-top: 2em;
 }
 
 li {
-    margin-top: 1em;
+    margin-top: 1.2em;
 }
 
 /* class of vanish should set display to none */
-
+ 
 .visible {
     display: block;
 }
 
-
+.img-1 {
+    width:  100%;
+}
