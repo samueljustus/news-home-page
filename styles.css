@@ -64,7 +64,7 @@ body {
     display: absolute;
     padding: 3.5em 15em 0em 0.5em;
     margin-right: -2em;
-    z-index: 4;
+    z-index: 1;
     display: none;
 }
 
