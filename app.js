@@ -4,5 +4,4 @@ const mainBody = document.querySelector('.container')
 
 hamburgerMenu.addEventListener('click', () => {
     menuItem.classList.toggle('visible');
-
 })
