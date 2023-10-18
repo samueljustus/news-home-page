@@ -181,6 +181,7 @@ aside {
 
 .section-two {
     margin-top: 3em;
+    margin-bottom: 2em;
 }
 
 .flex-item {
@@ -258,5 +259,11 @@ h3 {
     }
     .desktop {
         display: block;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 1.5em;
+
     }
 }
